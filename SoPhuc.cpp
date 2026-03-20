@@ -73,11 +73,13 @@ void SoPhuc::Thuong(SoPhuc a)
    if (tuThuc!=0&&tuAo>0)
    {
        cout<<"+"<<tuAo/uoc_Ao;
-       if (!((Mau/uoc_Ao)==1)) cout<<"/"<<Mau/uoc_Ao<<"i";
+       if (!((Mau/uoc_Ao)==1)) cout<<"/"<<Mau/uoc_Ao;
+       cout<<"i";
    } else if (tuAo!=0)
    {
        cout<<tuAo/uoc_Ao;
-        if (!((Mau/uoc_Ao)==1)) cout<<"/"<<Mau/uoc_Ao<<"i";
+        if (!((Mau/uoc_Ao)==1)) cout<<"/"<<Mau/uoc_Ao;
+        cout<<"i";
    }
    cout<<endl;
 }
